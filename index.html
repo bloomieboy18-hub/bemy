@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>bemy, my love <3</title>
+  <link rel="icon" href="image.png">
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="rain" id="rain"></div><div id="cf"></div>
+<div class="app">
+  <section class="screen" id="s1">
+    <div class="top">
+      <svg id="env" viewBox="0 0 120 90"><rect x="4" y="12" width="112" height="74" rx="6" fill="#f4faff" stroke="#4a90d9" stroke-width="4"/><path d="M6 16L60 56L114 16Z" fill="#a9d3ff" stroke="#4a90d9" stroke-width="4" stroke-linejoin="round"/><path d="M60 52L48 40C42 33 50 25 56 31L60 35L64 31C70 25 78 33 72 40Z" fill="#2f80ed"/></svg>
+      <p class="ttl" id="ttl"></p>
+    </div>
+    <div class="archer" id="archer" role="button" tabindex="0" aria-label="Pull the bow down and release to shoot (or press Enter)">
+      <div id="arrow"><svg viewBox="0 0 16 100" width="16" height="100"><rect x="6.5" y="18" width="3" height="76" fill="#2a5ea8"/><path d="M8 0L15 20H1Z" fill="#2f80ed"/><path d="M6.5 80L1.5 92H6.5ZM9.5 80L14.5 92H9.5Z" fill="#2f80ed"/></svg></div>
+      <svg viewBox="0 0 140 70"><path d="M12 22Q70 80 128 22" fill="none" stroke="#2a5ea8" stroke-width="7" stroke-linecap="round"/><path id="str" d="M12 22L70 22L128 22" fill="none" stroke="#1d3f73" stroke-width="2"/></svg>
+    </div>
+    <p class="hint" id="hint"></p>
+  </section>
+
+  <section class="screen off" id="s2">
+    <div class="win" id="win">
+      <div class="tb"><span>LOVE</span><span class="ctl"><i>-</i><i>o</i><i>x</i></span></div>
+      <div class="hb">♥ • ♥ • ♥</div>
+      <div class="body">
+        <p id="msg"></p>
+        <svg id="cat" viewBox="0 0 16 14"></svg>
+        <div class="btns" id="btns"><button id="yes">SÍ</button><button id="no">NO</button></div>
+        <p id="fin"></p>
+
+      </div>
+    </div>
+  </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
